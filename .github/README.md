@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-verifiedpermissions`](https://www.npmjs.com/package/@aws-sdk/client-verifiedpermissions/v/3.414.0).
+[`@aws-sdk/client-verifiedpermissions`](https://www.npmjs.com/package/@aws-sdk/client-verifiedpermissions/v/3.418.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.414.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.418.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-We4bNzBsPgyNjPxQWn+prGxqFUAH+6P+g69Dc9cLc6VX9Gobzh3l9I3HU8D0uN02
+sha384-SbJaF6fhaa9mhHHQVYOr/7c5Je2PhFQMMlK3XrrQSANrLlWXFZBNQBPDbY8a8Xo4
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-verifiedpermissions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.414.0/index.min.mjs"
+            "@aws-sdk/client-verifiedpermissions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.418.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.414.0/index.min.mjs": "sha384-We4bNzBsPgyNjPxQWn+prGxqFUAH+6P+g69Dc9cLc6VX9Gobzh3l9I3HU8D0uN02"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.418.0/index.min.mjs": "sha384-SbJaF6fhaa9mhHHQVYOr/7c5Je2PhFQMMlK3XrrQSANrLlWXFZBNQBPDbY8a8Xo4"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-verifiedpermissions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.414.0/index.min.mjs"
+                        "@aws-sdk/client-verifiedpermissions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.418.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.414.0/index.min.mjs": "sha384-We4bNzBsPgyNjPxQWn+prGxqFUAH+6P+g69Dc9cLc6VX9Gobzh3l9I3HU8D0uN02"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-verifiedpermissions@3.418.0/index.min.mjs": "sha384-SbJaF6fhaa9mhHHQVYOr/7c5Je2PhFQMMlK3XrrQSANrLlWXFZBNQBPDbY8a8Xo4"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.414.0`)
+* Always pin to a specific version (`@3.418.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-verifiedpermissions/blob/refs/tags/3.414.0/LICENSE
+https://github.com/cloud-sdk-builds/client-verifiedpermissions/blob/refs/tags/3.418.0/LICENSE
 ```
 
 ---
